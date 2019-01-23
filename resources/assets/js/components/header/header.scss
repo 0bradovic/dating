@@ -1,0 +1,38 @@
+.header {
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    .content_1200 {
+        max-width: 1200px;
+        margin: auto;
+
+        .navbar {
+            .navbar-brand {
+                width: 120px;
+
+                img {
+                    width: 100%;
+                }
+            }
+            .update-profile {
+                background: #C991EB;
+                border: #C991EB;
+            }
+        }
+    }
+
+    .search_dropdown_holder {
+        margin-right: 20px;
+        .search_dropdown_triger {
+            color: #b43afb;
+            background-color: #ffffff;
+            border-color: #b640fb;
+            font-size: 15px;
+            &:active {
+                color: #9e3ae0;
+                background-color: #ffffff;
+                border-color: #9e3ae0;
+                outline: none;
+            }
+        }
+    }
+}

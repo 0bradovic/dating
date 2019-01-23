@@ -1,0 +1,275 @@
+.settings-form{
+    width:45%!important;
+   background: #fbb7fb;
+    padding-left:2%;
+    margin:auto!important;
+     left: 0 !important;
+    right: 0 !important;
+     border-radius:8px;
+    padding: 30px 2% 40px 3%;
+    margin-bottom: 150px !important;
+    position: relative !important;
+    z-index: 66;
+    // overflow:scroll;
+    
+}
+.setting-form h1{
+    font-size: 2.2em;
+    margin-top:5%;
+    
+}
+
+.mycontacts, .chat-request, .repeat{
+    display: block;
+    clear:both;
+    margin-top: 1px !important;
+    margin-bottom: 1px!important;
+}
+.repeat{
+    margin-left:3%;
+}
+.settings-mail{
+    margin-top: 14px;
+    }
+.close-settings{
+    float:right;
+    border-radius:50%;
+    background: rgb(231, 216, 216);
+    color:grey;
+    width:26px;
+    height:26px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: semi-bold;
+    line-height:26px;
+    padding-top: 1px;
+    cursor:pointer;
+}
+.close-settings:hover ,.popup span:hover, .phone-popup span:hover {
+    background: #d5232f;
+    color:white;
+}
+.settings-payment h3{
+    margin-top: 8px;
+}
+.popup, .phone-popup{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(51, 36, 36, 0.26);
+    
+    
+
+  }
+  .popup_inner {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 25%;
+    bottom: 25%;
+    margin: auto;
+    background-image: linear-gradient(to bottom right, #ee9ca7
+    , #ffdde1);
+    background-size:cover;
+    padding: 30px 1% 30px 1%;
+  }
+
+  .popup_inner span{
+      height: 30px;
+      width: 30px;
+     border-radius: 50%; 
+    
+
+  }
+.settings-save-button{
+    text-align: center!important;
+    border-radius:5px;
+    outline: none;
+    text-transform: uppercase;
+    box-shadow:none;
+    text-shadow:none;
+    padding:4px;
+    color:white;
+    background: #d5232f;
+    width: 180px;
+    box-sizing: border-box;
+    overflow: visible;
+    vertical-align: top;
+    cursor: pointer;
+    -webkit-appearance: button!important;
+    -webkit-writing-mode: horizontal-tb !important;
+    border:0;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.setttings-password{
+    display:flex;
+    flex-direction: column;
+}
+.password-area{
+    padding: 8px 80px 8px 14px;
+    height: 36px;
+    border:0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width:50%;
+}
+.settings-save-button.password{
+    border-radius: 4px;
+    padding: 5px 20px 5px 20px;
+    height:36;
+}
+.button-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+  .popup span, .phone-popup span{
+      
+    float: right;
+    border-radius: 50%;
+    background: #e7d8d8;
+    color: grey;
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: semi-bold;
+    line-height: 26px;
+    padding-top: 1px;
+    cursor: pointer;
+}
+.phonenumber-area{
+    width: 75%;
+    -webkit-appearance: none!important; 
+  margin: 0; 
+  cursor:pointer;
+  padding-left: 8px;
+  border:none;
+}
+ .phonenumber-area::-webkit-inner-spin-button{
+    -webkit-appearance: none!important; 
+    cursor:pointer;
+    padding:auto 10px!important;
+ }
+ .phonenumber-area:focus{
+    border:0;
+}
+.confirm-number{
+    margin-top: 11px;
+    color:grey;
+    font-size: 10px;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+.btn-phone-confirm{
+    text-align: center!important;
+    border-radius:5px;
+    outline: none;
+    text-transform: uppercase;
+    box-shadow:none;
+    text-shadow:none;
+    padding:4px;
+    color:white;
+    background: #d5232f;
+    width: 180px;
+    box-sizing: border-box;
+    overflow: visible;
+    vertical-align: top;
+    cursor: pointer;
+    -webkit-appearance: button!important;
+    -webkit-writing-mode: horizontal-tb !important;
+    border:0;
+    font-size: 1.1em;
+    font-weight: 600;
+    bottom: 30px;
+    position: absolute;
+    
+}
+
+  @media only screen and (max-width: 1600px) {
+    .settings-form{
+        width:62%;
+    }
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .settings-form{
+        width:70%;
+        
+    }
+  }
+  @media only screen and (max-width: 1024px) {
+    .settings-form{
+        width:78%;
+    }
+  }
+  @media only screen and (max-width: 860px) {
+    .settings-form{
+        width:84%;
+    }
+    .settings-preferences h1{
+        font-size: 1.8em;
+        margin-top:6%;
+        
+    }
+    .settings-preferences h3{
+        font-size: 1.2em;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .settings-form{
+        width:92%;
+    }
+    .settings-form h1{
+        font-size: 1.8em;
+        margin-top:6%;
+        
+    }
+    .settings-form h3{
+        font-size: 1.2em;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .settings-form{
+        width:100%;
+    }
+    .settings-form h1{
+        font-size: 1.8em;
+        margin-top:6%;
+        
+    }
+    .settings-form h3{
+        font-size: 1.1em;
+    }
+    .settings-form p{
+        font-size: 0.9em;
+    }
+  }
+  @media only screen and (max-height: 770px) {
+    .settings-form{
+        width:100%;
+    }
+    p{
+        font-size: 0.8em;
+    }
+    .settings-form h1{
+        font-size: 1.3em;
+        margin-top:6%;
+        
+    }
+    .settings-form h3{
+        font-size: 1em;
+    }
+  }
+
+  

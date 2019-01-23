@@ -1,0 +1,41 @@
+.settings-form{
+    width:45%;
+    background: #fbb7fb;
+    padding-left:2%;
+}
+.setting-form h1{
+    font-size: 2.5em;
+    margin-top:7%;
+    
+}
+
+.mycontacts, .chat-request, .repeat{
+    display: block;
+    clear:both;
+    margin-top: 1px !important;
+    margin-bottom: 1px!important;
+}
+.repeat{
+    margin-left:3%;
+}
+.settings-mail{
+    margin-top: 4%;
+    }
+.close-settings{
+    float:right;
+    border-radius:50%;
+    background: rgb(231, 216, 216);
+    color:grey;
+    width:26px;
+    height:26px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: semi-bold;
+    line-height:26px;
+    padding-top: 1px;
+    cursor:pointer;
+}
+.close-settings:hover{
+    background: #d5232f;
+    color:white;
+}

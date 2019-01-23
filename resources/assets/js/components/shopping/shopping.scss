@@ -1,0 +1,49 @@
+.badge.badge-primary.m-2{
+    font-size: 12px;
+    font-weight: 800;
+}
+.shopping-item{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin:10px;
+    text-align: center;
+}
+img{
+    width: auto;
+    border-radius: 6px;
+
+}
+
+.shopping-items{
+    display: flex;
+    flex-wrap: wrap;
+}
+.add-remove-buttons{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.basket{
+    width: 300px;
+    height: 150px;
+    background: rgb(247, 215, 74);
+    // position: -webkit-sticky; /* Safari */
+    position: fixed;
+    bottom: 50%;
+    right:0;
+    display: flex;
+    flex-direction: column;
+}
+i{
+    margin: 0 auto;
+    // color: #B54AF7;
+}
+.fa-shopping-cart:before{
+    margin: 0 auto;
+}
+.reset{
+    margin: 0 auto;
+}
+.basket-awesome{
+    justify-content: center;
+}

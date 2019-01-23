@@ -1,0 +1,33 @@
+.modal-dialog.purchase_creds_modal {
+    max-width: 800px;
+
+    .modal-header {
+        .modal-title {
+            font-size: 21px;
+            span {
+                color: #6ebd12;
+            }
+        }
+    }
+
+    .modal-body {
+        .experition_date {
+            min-width: 100%;
+        }
+    }
+
+    .modal-footer {
+        .btn-success {
+            background-color: #7bb339;
+            border-color: #7ab32e;
+            margin-right: auto;
+            width: 150px;
+        }
+    }
+
+    .creds_purchase_description {
+        margin-bottom: 12px;
+        border-bottom: 1px dotted #ddd;
+        padding-bottom: 15px;
+    }
+}

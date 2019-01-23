@@ -1,0 +1,116 @@
+.profile_info_holder {
+    padding-top: 30px;
+    padding-bottom: 15px;
+
+    & > .col-4 {
+        position: relative;
+        flex: 0 0 29.333333%;
+        padding: 20px;
+        border-radius: 5px;
+        margin: 2%;
+        margin-top: 0;
+        box-shadow: 0 2px 10px 0 rgba($color: #000000, $alpha: 0.2);
+        border: 3px solid rgba(182, 64, 250, 0.55);
+
+        & > h3 {
+            font-size: 23px;
+            margin-bottom: 10px;
+        }
+
+        & > p {
+            font-size: 16px;
+        }
+
+        &.looking_for {
+            h4 {
+                font-size: 18px;
+            }
+        }
+
+        &.about_me {
+            p {
+                margin-bottom: 10px;
+                span {
+                    font-weight: bold;
+                    margin-left: 5px;
+                }
+            }
+        }
+
+        &.interests {
+            button {
+                font-size: 17px;
+                padding: 0;
+                margin: 0;
+                padding: 4px 15px;
+                border: none;
+                border-radius: 3px;
+                margin: 5px;
+                cursor: pointer;
+
+                &.books {
+                    background: #ef921f;
+                    color: #efefef;
+                }
+
+                &.cooking {
+                    background: #ffe009;
+                    color: #b78411;
+                }
+
+                &.music {
+                    background: #0982ff;
+                    color: #f9f9f9;
+                }
+
+                &.movies {
+                    background: #4c4c4c;
+                    color: #f9f9f9;
+                }
+
+                &.nature {
+                    background: #99ca03;
+                    color: #f9f9f9;
+                }
+
+                &.travel {
+                    background: #87318e;
+                    color: #f9f9f9;
+                }
+
+                &.sport {
+                    background: #21b1dc;
+                    color: #f9f9f9;
+                }
+
+                &.cars {
+                    background: #1395c7;
+                    color: #f9f9f9;
+                }
+            }
+        }
+    }
+}
+
+.edit_info {
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    font-size: 20px;
+    color: #b974e0;
+    cursor: pointer;
+}
+
+.profile_info {
+    .about_me {
+        position: relative;
+    }
+    .edit_pen_button {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        font-size: 17px;
+        color: #555;
+        cursor: pointer;
+    }
+}

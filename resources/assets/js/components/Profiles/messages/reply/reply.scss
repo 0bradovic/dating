@@ -1,0 +1,76 @@
+.reply_modal_holder {
+    textarea {
+        width: 100%;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        resize: none;
+        height: 50px;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+
+    .msg_chat_ads {
+        font-size: 20px;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        span {
+            margin-right: 8px;
+            cursor: pointer;
+            i {
+                color: #4c4c4c;
+            }
+        }
+    }
+
+    .user_info {
+        display: block;
+        width: 100%;
+        text-align: center;
+        .user_photo {
+            display: block;
+            text-align: center;
+            img {
+                display: inline-block;
+                width: 50px;
+                height: 50px;
+                background: #333;
+                border-radius: 50%;
+            }
+        }
+
+        .user_name {
+            display: inline-block;
+            margin-bottom: 0;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .reply_title {
+            font-size: 17px;
+            margin-bottom: 10px;
+            text-align: left;
+            background: #b640fb;
+            margin-left: -16px;
+            margin-right: -38px;
+            margin-top: -16px;
+            color: #fff;
+            text-indent: 10px;
+            line-height: 2.5;
+            border-radius: 4px 4px 0 0;
+        }
+    }
+
+    .modal-header .close {
+        padding: 0;
+        margin: 0;
+        line-height: 23px;
+        background: #ffffff;
+        width: 23px;
+        opacity: 1;
+        border-radius: 50%;
+        margin-top: -6px;
+        color: #b640fb;
+        text-shadow: none;
+    }
+}

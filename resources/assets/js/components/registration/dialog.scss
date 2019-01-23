@@ -1,0 +1,382 @@
+.client {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 16% 12% 2% 12%;
+    background: white;
+    border-radius: 6px;
+}
+.personal-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.personal-info textarea {
+    resize: none;
+    background: #f1f1f1;
+    width: 150%; /*Media*/
+    height: 100px;
+}
+
+#perfect-match-button {
+    max-height: 30px;
+}
+.avatar-png {
+    background: url(http://cmauriflama.sp.gov.br/app/webroot/img/avatar-user.png);
+    max-width: 256px;
+    width: 256px;
+    height: 256px;
+}
+
+.dialog-container {
+    .ui-dialog {
+        transform: none !important;
+        width: 70%;
+        background: #fff;
+    }
+}
+.dialog-container button {
+    border-radius: 10px;
+    box-shadow: none !important;
+    background: #1e678a;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none !important;
+    text-align: center;
+    letter-spacing: 1px;
+    text-shadow: 0;
+    padding: 10px;
+}
+.hair-color-form button {
+    -webkit-appearance: button;
+    background: #b549f7 !important;
+    border: none !important;
+    border-radius: 3px !important;
+    color: #fff !important;
+    padding: 5px 15px !important;
+    display: block !important;
+    margin-top: 10px !important;
+}
+
+.submit-button {
+    -webkit-appearance: button;
+    background: #b549f7 !important;
+    border: none !important;
+    border-radius: 3px !important;
+    color: #fff !important;
+    padding: 5px 15px !important;
+    display: block !important;
+    margin-top: 10px !important;
+}
+
+.btn span.glyphicon {
+    opacity: 0;
+}
+.btn.active span.glyphicon {
+    opacity: 1;
+}
+.btn-group input {
+    opacity: 0;
+}
+.hair-checkbox.active {
+    background-color: #1e678a !important;
+    text-align: center;
+}
+
+.rc-progress-line {
+    height: 5px;
+    max-width: 125%;
+    width: 125%;
+}
+.ui-dialog h3 {
+    font-size: 16px;
+}
+.dialog-container-match {
+    position: relative;
+    background: #fff;
+    margin: auto;
+    border-radius: 6px;
+    padding: 2% 3.5%;
+    background-size: cover;
+}
+
+.dialog-container-match h1 {
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding-top: 5%;
+    margin-bottom: 4%;
+}
+.textbox {
+    resize: none;
+    margin-left: 5px;
+    width: 100%;
+    padding: 4px 5px;
+}
+.nick {
+    display: flex;
+    align-items: baseline;
+}
+
+.dialog-container-match label {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.dialog-container-match form {
+    display: block;
+}
+.nick {
+    display: flex;
+    align-items: center;
+}
+.gender {
+    display: flex;
+    justify-content: space-between;
+}
+.i-am {
+    width: 140px;
+}
+
+select {
+    width: 25%;
+    padding: 6px 2px;
+    margin: 5px 1%;
+}
+#seeking-label {
+    margin-left: 0px !important;
+}
+select,
+.textbox {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.birthday-form form {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.hometown form {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.progress-bar {
+    background-color: transparent !important;
+    width: 100%;
+    text-align: center;
+
+    & > div {
+        margin-bottom: 20px;
+    }
+}
+
+.progress-bar button {
+    width: 48%;
+    background: rgb(213, 35, 47);
+    color: #fff;
+    text-transform: uppercase;
+    outline: none;
+    box-shadow: none;
+    border-radius: 6px;
+    text-decoration: none;
+    cursor: pointer;
+    text-shadow: none;
+    border: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 1.6eem;
+    font-weight: bold;
+}
+.progress-bar h3 {
+    color: #000;
+    font-size: 18px;
+}
+.progress-bar button:hover {
+    opacity: 0.9;
+}
+.nick .textbox {
+    margin-left: 2.5%;
+}
+.details-about-you h4 {
+    font-size: 1.4em;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.2;
+}
+.details-about-you h1,
+.about-ideal-partner h1 {
+    padding-top: 3%;
+    margin-bottom: 4%;
+}
+.details-about-you textarea,
+.about-ideal-partner textarea {
+    margin-top: 8px;
+    width: 100%;
+    height: 26%;
+    padding: 8px 8px !important;
+    border-radius: 5px;
+    resize: none;
+    font-size: 1.2em;
+    writing-mode: vertical-lr !important;
+}
+.about-ideal-partner textarea {
+    margin-top: 14px;
+    height: 34%;
+    background: #f0ece8;
+    border-radius: 8px;
+}
+
+.interests-check {
+    height: 55%;
+    border-radius: 6px;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.checkbox-div input {
+    opacity: 0;
+}
+.checkbox-div .btn btn-primary {
+    border-radius: 16px;
+}
+.btn btn-primary.active {
+    background-color: #8a1e78 !important;
+    text-align: center;
+}
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: rgba(11, 82, 92, 0.631);
+    border-color: rgba(11, 82, 92, 0.741);
+    border-radius: 8px;
+}
+
+.step-buttons {
+    position: static;
+    display: flex;
+    justify-content: space-between;
+    bottom: 5%;
+    margin: auto;
+    align-items: center;
+}
+.back-button,
+.skip-button {
+    background: transparent;
+    color: rgba(11, 82, 92, 1);
+    border: 0;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 500;
+    outline: none !important;
+    text-decoration: none;
+    transition: 0.3s;
+    box-shadow: none;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.back-span {
+    padding: 1px 6px;
+    width: 54px;
+    box-sizing: border-box;
+}
+
+.Birthay-picker label {
+    margin-right: 5px;
+}
+.avatar-upload {
+    border-radius: 12px;
+}
+.btn span.glyphicon {
+    opacity: 0;
+}
+.btn.active span.glyphicon {
+    opacity: 1;
+}
+.gender-checkbox {
+    opacity: 0;
+}
+.btn.btn-success {
+    background-image: url(https://img.icons8.com/office/30/000000/circled-user-male-skin-type-5.png);
+    height: 30px;
+    width: 30px;
+    border-color: white;
+}
+.btn.btn-success.active {
+    height: 30px;
+    width: 30px;
+    background: #1e678a;
+}
+.btn-success {
+    background: transparent;
+    border-color: transparent;
+}
+
+.btn-success:not(:disabled):not(.disabled):active,
+.btn-success:not(:disabled):not(.disabled).active,
+.show > .btn-success.dropdown-toggle {
+    background: white;
+    background-image: url(https://img.icons8.com/office/30/000000/circled-user-male-skin-type-5.png);
+    border-color: transparent;
+}
+
+.gender-checkbox:checked + label {
+    background-color: rgb(145, 14, 221) !important;
+    border-color: none;
+}
+.seeking .btn-success {
+    border-color: transparent !important;
+    background-color: transparent !important;
+}
+
+.btn.btn-success.female {
+    background: white;
+    background-image: url(https://img.icons8.com/office/30/000000/circled-user-female-skin-type-5.png);
+    border-color: transparent;
+}
+
+.gender-radio {
+    opacity: 0;
+}
+.gender-radio:checked + label {
+    background-color: rgb(145, 14, 221) !important;
+    border-color: none;
+}
+.btn-success.male {
+    height: 31px;
+    width: 31px;
+}
+
+.about-personal-info {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.about-personal-info > span {
+    width: 80px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.cover-preview {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.cover-preview img {
+    width: auto;
+    max-height: 250px;
+}
+
+.profile-photo-preview {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.profile-photo-preview img {
+    width: auto;
+    max-height: 250px;
+}

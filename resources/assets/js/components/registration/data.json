@@ -1,0 +1,11 @@
+{
+    "months" : ["January", "February", "March", "April", "May", "June", "Jule", "August", "September", "October", "November", "December"],
+    
+    "interests" : ["Biking", "Camping", "Cars", "Cooking", "Dancing", "Diving", "Fashion", "Fishing $ Hunting", "Games",
+        "Hobbies & Crafts", "Sport", "Football", "Baseball", "Hockey", "Lying on the beach",
+        "Shopping", "Sailing", "Reading books", "Music & Concerts", "Meditation & Yoga", "Movies", "Museums & Art", "Traveling", "Party and Night Clubs",
+        "Nature", "Gigs", "Science", "Art", "TV Shows", "Popculture" ],
+
+    "hairs": ["Blonde","Black","Shaved","Curly", "Grey","Red","Brunette","White","Brown","Ginger","Short"]    
+}
+

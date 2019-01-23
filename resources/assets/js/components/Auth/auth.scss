@@ -1,0 +1,28 @@
+.birthday-date {
+  width: 210px;
+  select {
+    font-size: 14px;
+    color: #666;
+    border: 1px solid #aaa;
+    width: 60px;
+
+    &.month {
+      width: 70px;
+    }
+    &.year {
+      width: 65px;
+    }
+  }
+
+  
+}
+
+header {
+  .header-register {
+    .register-form {
+      .gender-radio {
+        opacity: 1;
+      }
+    }
+  } 
+}
